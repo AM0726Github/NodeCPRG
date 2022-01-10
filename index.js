@@ -5,21 +5,11 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 
 // Declaring Createreadme constant
-const CreateReadme = require("./utils/Mark.js");
+const CreateReadme = require("./src/Mark.js");
 
 // Inplementing npmjs util
 const util = require("util");
 
-// Using fs write file method for creating readme fille
-function fsWriteFile(fileName, data) {
-    fs.writeFile(fileName, data, err => {
-        if (err) {
-          return console.log(err);
-        }
-      
-        console.log("The README file with enterd data has been generated cuccesfully ! ")
-    });
-};
 
 // Promtinq to user questions need to fill for creating readme
 const promptUser = () => {
@@ -127,6 +117,28 @@ const promptUser = () => {
   };
 
 // Using Util promisify method
-const promisified = util.promisify(fsWriteFile());
+const promisified = util.promisify(fs.writeFile);
+
+const promptFeadback = async function() {
+    try {
+
+        // Prompt questions
+        const responses = await promptUser;
+        console.log('Responses : ', responses);
+    
+        //Create Readme file
+        console.log("Creating README ...")
+        const markdown = CreateReadme(responses);
+        console.log(markdown);
+    
+        // Write markdown to file
+        await promisified('New_README.md', markdown);
+
+    } catch (error) {
+        console.log(error);
+    }
+};
+
+promptFeadback();
 
 
