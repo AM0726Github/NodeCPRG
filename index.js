@@ -7,7 +7,21 @@ const inquirer = require('inquirer');
 // Declaring Createreadme constant
 const CreateReadme = require("./utils/Mark.js");
 
+// Inplementing npmjs util
+const util = require("util");
 
+// Using fs write file method for creating readme fille
+function fsWriteFile(fileName, data) {
+    fs.writeFile(fileName, data, err => {
+        if (err) {
+          return console.log(err);
+        }
+      
+        console.log("The README file with enterd data has been generated cuccesfully ! ")
+    });
+};
+
+// Promtinq to user questions need to fill for creating readme
 const promptUser = () => {
     return inquirer.prompt([
       {
@@ -111,3 +125,8 @@ const promptUser = () => {
     },
     ]);
   };
+
+// Using Util promisify method
+const promisified = util.promisify(fsWriteFile());
+
+
