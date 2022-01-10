@@ -1,9 +1,9 @@
 
-<h1 align="center">w 👋</h1>
+<h1>Generator</h1>
   
-![badge](https://img.shields.io/badge/license-w-brightgreen)<br />
+![badge](https://img.shields.io/badge/license-Node.js project-green)<br />
 ## Description
-🔍 w
+Node.js project
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -11,20 +11,19 @@
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
-- [Questions](#questions)
 ## Installation
-💾 w
+ Clone repo , add npm modules run with console
 ## Usage
-💻 w
+ Warking in console
 ## License
-![badge](https://img.shields.io/badge/license-The Unlicense-brightgreen)
+![badge](https://img.shields.io/badge/license-The Unlicense-green)
 <br />
 This application is covered by the undefined license. 
 ## Contributing
-👪 we
+Readme generator
 ## Tests
-✏️ wee
+Tested
 
 :octocat: Find me on GitHub: [AM0726Github](https://github.com/AM0726Github)<br />
 <br />
-_This README was generated with ❤️ by [README-generator](https://github.com/AM0726Github/NodeCPRG)
+_This README was generated with ❤️ by [Rgenerator](https://github.com/AM0726Github/NodeCPRG)

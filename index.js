@@ -129,7 +129,6 @@ const promptFeadback = async function() {
         //Create Readme file
         console.log("Creating README ...")
         const markdown = CreateReadme(responses);
-        console.log(markdown);
     
         // Write markdown to file
         await promisified('New_README.md', markdown);
