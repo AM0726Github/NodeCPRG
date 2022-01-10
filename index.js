@@ -123,7 +123,7 @@ const promptFeadback = async function() {
     try {
 
         // Prompt questions
-        const responses = await promptUser;
+        const responses = await promptUser();
         console.log('Responses : ', responses);
     
         //Create Readme file

@@ -1,9 +1,9 @@
 
-<h1 align="center">undefined 👋</h1>
+<h1 align="center">w 👋</h1>
   
-![badge](https://img.shields.io/badge/license-undefined-brightgreen)<br />
+![badge](https://img.shields.io/badge/license-w-brightgreen)<br />
 ## Description
-🔍 undefined
+🔍 w
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -13,18 +13,18 @@
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
-💾 undefined
+💾 w
 ## Usage
-💻 undefined
+💻 w
 ## License
-![badge](https://img.shields.io/badge/license-undefined-brightgreen)
+![badge](https://img.shields.io/badge/license-The Unlicense-brightgreen)
 <br />
 This application is covered by the undefined license. 
 ## Contributing
-👪 undefined
+👪 we
 ## Tests
-✏️ undefined
+✏️ wee
 
-:octocat: Find me on GitHub: [undefined](https://github.com/undefined)<br />
+:octocat: Find me on GitHub: [AM0726Github](https://github.com/AM0726Github)<br />
 <br />
 _This README was generated with ❤️ by [README-generator](https://github.com/AM0726Github/NodeCPRG)
